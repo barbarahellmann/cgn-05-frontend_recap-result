@@ -50,6 +50,9 @@ function App() {
 
                 })
             }
+            {
+                (props.status === "Open") && <NewTodoCard/>
+            }
         </div>
     </>
   )
